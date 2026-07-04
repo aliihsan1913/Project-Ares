@@ -1,10 +1,10 @@
-# Project Helios2
+# Project Ares
 
 ## Project Disclaimer & Purpose
 This project is an engineering simulation created strictly for fun and entertainment. To be completely honest, no physical RF plasma generator has been manufactured, and this system is not intended for actual deployment. Everything presented here is a theoretical "what-if" scenario and a creative exercise in conceptual hardware design and software simulation. 
 
 ## Overview
-Project Helios2 is a cyber-physical system (CPS) testbed designed to simulate a 13.56 MHz RF Plasma Generator for Inductively Coupled Plasma (ICP) applications. 
+Project Ares is a cyber-physical system (CPS) testbed designed to simulate a 13.56 MHz RF Plasma Generator for Inductively Coupled Plasma (ICP) applications. 
 
 This repository contains the conceptual hardware design files for the high-power RF generator and the software source code for the simulation engine.
 
@@ -17,9 +17,9 @@ The theoretical hardware component focuses on generating high voltage switching 
 * **Antenna Topology:** 50 Ohms impedance-matched Circular Planar Spiral Loop Antenna, designed to overcome the wavelength constraint of the 13.56 MHz ISM band.
 
 ### Hardware Visuals
-![3D PCB Render](Images/Helios2_RF.png)
-![PCB Layout](Images/Helios2_RF_PCB.png)
-![Schematic](Images/SchemaHelios2.png)
+![3D PCB Render](Images/Ares_RF.png)
+![PCB Layout](Images/Ares_RF_PCB.png)
+![Schematic](Images/SchemaAres.png)
 ![Antenna Blueprint](Images/Antenna.png)
 
 ## Software & Simulation
@@ -38,10 +38,10 @@ The repository is organized into specific directories for hardware, software, an
 
 The hardware directory contains the KiCad project files, specifically `fp-info-cache`, `marssiklot.kicad_pcb`, `marssiklot.kicad_prl`, `marssiklot.kicad_pro`, and `marssiklot.kicad_sch`. 
 
-The software directory contains the core simulation scripts, which include `cyclotrone.py`, `Helios2game.py`, and `Helios2simu.py`.
+The software directory contains the core simulation scripts, which include `cyclotrone.py`, `Aresgame.py`, and `Aressimu.py`.
 
 ```text
-Helios2/
+Ares/
 ├── Hardware/
 │   ├── fp-info-cache
 │   ├── marssiklot.kicad_pcb
@@ -51,11 +51,11 @@ Helios2/
 ├── Images/
 │   ├── Antenna.png
 │   ├── CyclotroneSim.png
-│   ├── Helios2_RF.png
-│   ├── Helios2_RF_PCB.png
-│   ├── SchemaHelios2.png
+│   ├── Ares_RF.png
+│   ├── Ares_RF_PCB.png
+│   ├── SchemaAres.png
 │   └── Sim_Screen.png
 └── Software/
     ├── cyclotrone.py
-    ├── Helios2game.py
-    └── Helios2simu.py
+    ├── Aresgame.py
+    └── Aressimu.py
